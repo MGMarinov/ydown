@@ -128,14 +128,14 @@ ydown\install-tools.bat
 Optional flags:
 
 ```bat
-ydown\install-tools.bat -OnlyYtDlp
-ydown\install-tools.bat -OnlyFfmpeg
-ydown\install-tools.bat -Force
+install-tools.bat -OnlyYtDlp
+install-tools.bat -OnlyFfmpeg
+install-tools.bat -Force
 ```
 
 ## Usage
 
-1. Open `http://******/ydown/`
+1. Open `http://**********/ydown/`
 2. Paste URL(s) into `Video URL 1` and/or `Video URL 2`
 3. Wait for scan completion
 4. Select preferred quality and format per slot
