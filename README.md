@@ -3,8 +3,6 @@
 YDown is a PHP-based downloader UI for embedded media sources.  
 It supports two fully independent download slots that run in parallel without a global queue.
 
-Project root: `tools/ydown/`
-
 ## Current Features
 
 - Two parallel download slots (`Slot A` and `Slot B`)
@@ -124,20 +122,20 @@ Optional flags:
 ### BAT
 
 ```bat
-tools\ydown\install-tools.bat
+ydown\install-tools.bat
 ```
 
 Optional flags:
 
 ```bat
-tools\ydown\install-tools.bat -OnlyYtDlp
-tools\ydown\install-tools.bat -OnlyFfmpeg
-tools\ydown\install-tools.bat -Force
+ydown\install-tools.bat -OnlyYtDlp
+ydown\install-tools.bat -OnlyFfmpeg
+ydown\install-tools.bat -Force
 ```
 
 ## Usage
 
-1. Open `http://localhost/tools/ydown/`
+1. Open `http://******/ydown/`
 2. Paste URL(s) into `Video URL 1` and/or `Video URL 2`
 3. Wait for scan completion
 4. Select preferred quality and format per slot
