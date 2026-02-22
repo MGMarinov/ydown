@@ -1,0 +1,6 @@
+# local runtime and generated data
+tmp_debug/
+tmp_runtime/
+
+# local binaries (installed via install-tools scripts)
+bin/ffmpeg/
