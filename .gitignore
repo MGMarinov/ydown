@@ -4,3 +4,6 @@ tmp_runtime/
 
 # local binaries (installed via install-tools scripts)
 bin/ffmpeg/
+
+# private internal development docs (must never be pushed public)
+docs/
